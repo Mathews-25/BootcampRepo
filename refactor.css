@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    width: 100%;
+    height: auto;
+    padding: 6rem;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.infoContainer {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    background-color: rgb(243 244 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.days {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.days p {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.cardContent {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1.5rem;
+}
+
+.cardContainer {
+    width: 34%;
+    height: auto;
+    padding: 2rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: start;
+    align-items: start;
+}
+
+
+
+.total {
+    width: fit-content;
+    height: auto;
+}
+
+.total p {
+    font-weight: 600;
+}
+
+.stats {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bigSmall {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.4rem;
+}
+
+.big, .small {
+    width: fit-content;
+    height: auto;
+}
+
+.small {
+    padding-top: 0.8rem;
+    color: rgb(107 114 128)
+}
+
+.large {
+    color: blue;
+}
+
+.iconPercent {
+    width: fit-content;
+    height: auto;
+    background-color: rgb(220 252 231);
+    padding: 0.10rem 0.90rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.percent p {
+    color: rgb(22 101 52);
+}
+
+.icon {
+    width: 20px;
+    height: 40px;
+    padding-top: 0.5rem;
+}

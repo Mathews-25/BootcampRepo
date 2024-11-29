@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    margin: 2rem auto;
+    padding: 3rem;
+    background-color: rgb(243 244 246);
+    border-radius: 1.5rem;
+    border: solid #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card1, .card2, .card3 {
+    background-color: white;
+    width: 33%;
+    height: auto;
+    padding: 2rem;
+    border: 0.01rem solid #e5e7eb;
+}
+
+.card1 {
+    width: 33%;
+    height: auto;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.card3 {
+    width: 33%;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.big p {
+    color: rgb(79 70 229);
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.figures {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.bigSmall {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-content: start;
+    column-gap: 0.5rem;
+    padding-right: 3rem;
+}
+
+.small p {
+    width: fit-content;
+    padding-top: 0.7rem;
+    color: rgb(107 114 128);
+    font-size: 0.9rem;
+}
+
+.percent {
+    width: fit-content;
+    height: auto;
+    background-color: rgb(220 252 231);
+    padding: 0.5rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-content: center;
+    column-gap: 0.3rem;
+}
+
+.icon {
+    width: 1rem;
+    stroke-width: 3rem;
+    padding-top: 0.1rem;
+    
+}
+
+.icons {
+    color: rgb(239 68 68);
+    width: 1rem;
+    stroke-width: 3rem;
+    padding-top: 0.1rem;
+}
+
+.percents {
+    width: fit-content;
+    height: auto;
+    background-color: rgb(254 226 226);
+    padding: 0.5rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-content: center;
+    column-gap: 0.3rem;
+}
+
+.percentNumber {
+    color: rgb(22 101 52);
+}
+
+
+.percentNumbers {
+    color: rgb(153 27 27);
+}
+
+.days p {
+    padding-left: 1rem;
+    font-weight: 500;
+}

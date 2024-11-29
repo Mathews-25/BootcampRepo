@@ -1,0 +1,74 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    width: 100%;
+    height: auto;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.ComponentContainer {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    display: flex;
+    border: 1px solid gainsboro;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+.contentContainer {
+    width: 25%;
+    height: auto;
+    padding: 1.5rem;
+    row-gap: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid gainsboro;
+    justify-content: start;
+    align-items: start;
+}
+
+.topContent {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.revenue, .percent {
+    width: fit-content;
+    height: auto;
+}
+
+.revenue p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.amount {
+    width: fit-content;
+    height: auto;
+}
+
+.red {
+    color: red;
+}
+
+.last {
+   border-right: none; 
+}

@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+.mainContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movieContainer {
+    width: 40%;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    aspect-ratio: 16 / 9;
+    border-radius: 2rem;
+    flex-direction: column;
+    justify-content: start;
+    align-items: baseline;
+    background-color: rgb(241, 241, 241);
+    background-image: url("fury.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.backgroundContent {
+    width: 100%;
+    height: auto;
+    padding-top: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between; 
+    align-items: baseline;
+}
+
+.leftContent {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.logo {
+    width: fit-content;
+    height: auto;
+}
+
+.showingMat {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.title {
+    width: fit-content;
+    height: auto;
+}
+
+.top {
+    width: fit-content;
+    height: auto;
+}
+
+.top p {
+    font-size: 0.80rem;
+}
+
+.timeStamp {
+    width: fit-content;
+    height: auto;
+    padding: 0.50rem;
+    border-radius: 0.40rem;
+    background-color: rgb(58, 58, 58);
+}
+
+.timeStamp p {
+    color: white;
+}
+
+.castContainer {
+    width: 40%;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.detail {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 0.90rem;
+}
+
+.castCrew {
+    width: 100%;
+    height: auto;
+}
+
+.castCrew h4{
+    font-size: 1.2rem;
+    color: rgb(78, 78, 78);
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.final {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.viewsDays {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.40rem;
+    align-items: center;
+}
+
+.name {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.topTitle {
+    width: 100%;
+    height: auto;
+}
+
+.topTitle p{
+    font-size: 1rem;
+    font-family: "Poppins", serif;
+    text-align: center;
+    color: #FDD235;
+    padding-bottom: 4rem;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+p {
+    color: rgb(21, 21, 21);
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 6.5rem;
+    color: #FDD235;
+
+}
+
+h3 {
+    color: #fcfbfb;
+    font-weight: 900;
+}

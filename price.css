@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto:ital,wght@1,100&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  padding: 8rem;
+  background-color: rgb(17 24 39);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 3rem;
+}
+
+.topContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topContainerTag {
+  width: fit-content;
+  height: auto;
+}
+
+.topContainerTag p {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  color: rgb(129 140 248);
+}
+
+.topContainerTitle {
+  width: fit-content;
+  height: auto;
+}
+
+.topContainerTitle h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #ffff;
+}
+
+.topContainerTxt {
+  width: 68%;
+  padding: 1rem;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.topContainerTxt p{
+  font-size: 1.30rem;
+  font-weight: 500;
+  color: rgb(156 163 175);
+  text-align: center;
+}
+
+.cardSection {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  row-gap: 2rem;
+}
+
+.cardToggle {
+  width: fit-content;
+  height: auto;
+  background-color: rgb(26, 34, 51);
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  column-gap: 0.85rem;
+  padding: 0.50rem;
+  border-radius: 2rem;
+}
+
+.monthly {
+  width: fit-content;
+  height: auto;
+  
+}
+
+.annually {
+  width: fit-content;
+  height: auto;
+}
+
+
+.monthly button {
+  background-color: rgb(99 102 241);
+  color: white;
+  padding-top: 0.30rem;
+  padding-bottom: 0.30rem;
+  padding-left: 0.800rem;
+  padding-right: 0.800rem;
+  outline: none;
+  border: none;
+  border-radius: 0.85rem;
+  font-size: 0.90rem;
+  line-height: 1.25rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.annually button {
+  background-color: rgb(26, 34, 51);
+  color: white;
+  padding-top: 0.30rem;
+  padding-bottom: 0.30rem;
+  padding-left: 0.800rem;
+  padding-right: 0.800rem;
+  outline: none;
+  border: none;
+  border-radius: 0.85rem;
+  font-size: 0.90rem;
+  line-height: 1.25rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.cards {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  column-gap: 2rem;
+}
+
+.cardBody {
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  border: 1px solid gray;
+  border-radius: 1.9rem;
+  row-gap: 2rem;
+}
+
+
+.cardBody2 {
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  border: 2px solid rgb(99 102 241);
+  border-radius: 1.9rem;
+  row-gap: 2rem;
+}
+
+.cardTitle {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardTitle h4 {
+  font-size: 1.125rem;
+  line-height: 2rem;
+  font-weight: 600;
+  color: #ffff;
+}
+
+.popular {
+  background-color: rgb(99 102 241);
+  padding: 0.3rem;
+  border-radius: 2rem;
+  color: #ffff;
+}
+
+.cardtxt p {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: rgb(156 163 175);
+}
+
+.cardMoneyMonth {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  column-gap: 0.222rem;
+}
+
+.money {
+  width: fit-content;
+  height: auto;
+}
+
+.money h1 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  color: #ffff;
+}
+
+.month {
+  width: fit-content;
+  height: auto;
+  padding-top: 1rem;
+  color: rgb(156 163 175);
+}
+
+.cardbtn {
+  width: 100%;
+  height: auto;
+}
+
+.cardbut  {
+  width: 100%;
+  height: auto;
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  background-color: rgb(30, 38, 54);
+  border: none;
+  outline: none;
+  color: #ffff;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cardbut2  {
+  width: 100%;
+  height: auto;
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  background-color: rgb(99 102 241);
+  border: none;
+  outline: none;
+  color: #ffff;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cardbut:hover {
+  background-color: rgb(92, 100, 114);
+}
+
+.subscriptionDetails {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 0.85rem;
+}
+
+.icon {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  column-gap: 0.01rem;
+}
+
+.img {
+  padding-top: 0.3rem;
+  width: 30px;
+  height: 25px;
+  color: #ffff;
+  stroke-width: 0.15rem;
+}
+
+.text {
+  width: 100%;
+  height: auto;
+  color: rgb(156 163 175);
+}
